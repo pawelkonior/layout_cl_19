@@ -1,0 +1,33 @@
+.wrapper {
+    background-color: lightgreen;
+}
+
+.inner-box {
+    background-color: lightgrey;
+    width: 100%;
+    max-width: 980px;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    min-height: 100px;
+}
+
+.logo {
+    background-color: lightcoral;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin: 20px;
+    align-self: center;
+}
+.logo .logo-img {}
+
+.menu {
+    background-color: lightskyblue;
+}
+.menu .menu-item {
+    padding: 16px 10px;
+    display: inline-block;
+}
+
