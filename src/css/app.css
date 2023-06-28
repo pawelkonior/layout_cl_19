@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
 .wrapper {
     background-color: lightgreen;
 }
@@ -38,6 +44,7 @@
 .main-box {
     display: flex;
     column-gap: 20px;
+    flex: 1;
 }
 
 .main {
@@ -71,4 +78,26 @@
     align-items: center;
 }
 
+.footer-box {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.menu-footer {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.copyright {
+    align-self: flex-end;
+    width: 100%;
+    margin: 0;
+    text-align: right;
+    padding: 10px;
+}
 
