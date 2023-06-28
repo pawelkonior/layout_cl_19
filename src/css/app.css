@@ -1,3 +1,13 @@
+html, body {
+    font-size: 16px;
+}
+
+@media (max-width: 600px) {
+    html, body {
+        font-size: 32px;
+    }
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -10,7 +20,7 @@ body {
 
 .box {
     width: 100%;
-    max-width: 980px;
+    max-width: 61.25rem;
     margin-inline: auto;
     background-color: lightcoral;
 }
@@ -101,3 +111,6 @@ body {
     padding: 10px;
 }
 
+h1 {
+    font-size: 2rem;
+}
